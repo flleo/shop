@@ -1,0 +1,17 @@
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-img-top:hover {
+    height: 500px;
+}
+
+body {
+    background-image: url('images/watercolor-texture-with-green-yellow-tones.jpg');
+    
+}
+
+#cards {
+    height: 100%;
+}

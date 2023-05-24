@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body class="container p-4 ">
+    <header>
+        <h1 class="text-center text-secondary ">Shopping</h1>
+    </header>
+    <div class="d-flex flex-column justify-content-between p-4" >
+        <row>
+            <img height="35" src="data:image/png;base64,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">
+            admin@fedelleos.es
+        </row>
+        <row class="p-4">
+            <div id="cards" class="d-flex flex-wrap justify-content-between ">
+                <div class="card m-2">
+                    <img class="card-img-top" src="images/AO8A4722_2_clipped_rev_2.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Monopatin</h4>
+                        <p class="card-text">Ref. <b>1</b></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">120 eur</li>
+                    </ul>
+                </div>
+                <div class="card m-2">
+                    <img class="card-img-top" src="images/AO8A4722_2_clipped_rev_2.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Monopatin</h4>
+                        <p class="card-text">Ref. <b>1</b></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">120 eur</li>
+                    </ul>
+                </div>
+            </div>
+        </row>
+    </div>
+   
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
+</html>
